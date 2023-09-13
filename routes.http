@@ -13,3 +13,13 @@ Content-Type: image/png
 
 < ./example.mp3
 ------WebKitFormBoundary7MA4YWxkTrZu0gW--
+
+###
+
+# @name create-transcription
+POST http://localhost:3333/videos/13369fc6-ea4e-430f-ba8b-5b3044ed7f28/transcription
+Content-Type: application/json
+
+{
+    "prompt": "clean architecture, ddd"
+}
